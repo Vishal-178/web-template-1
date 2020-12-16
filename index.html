@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Template</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+        integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png">
+            </a>
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-targate="#navbarResponsive"> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- sliding image on top of the sreen -->
+    <div class="container-fluid px-0">
+        <div id="slides" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#slides" data-bs-slide-to="1"></li>
+                <li data-bs-target="#slides" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/background.png" class="d-block img-fluid">
+                    <div class="carousel-caption">
+                        <h1 class="h1"> BOOTSTRAP</h1>
+                        <h3 class="h4">This Is My First Tamplate</h3>
+                        <button type="button" class="btn btn-light">VIEW DEMO</button>
+                        <button type="button" class="btn btn-primary">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background2.png" class="d-block img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/background3.png" class="d-block img-fluid">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slides" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slides" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- jumbotron -->
+    <div class="container-fluid">
+        <div class="row bg-light jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">A web hosting allows individuals and organization to make their their website
+                    accessaible via the
+                    world wide web</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <button type="button" class="btn btn-outline-secondary">Web Hosting</button>
+            </div>
+        </div>
+    </div>
+    <!-- welcome -->
+    <div class="cointainer-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Build With Ease</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">Welcome to my Bootstrap 4 website tutorial! Bootstrap is a free and open-source
+                    front-end library with HTML and CSS based designs.</p>
+            </div>
+        </div>
+    </div>
+    <!-- cards -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-code"></i>
+                <h3>HTML5</h3>
+                <p>build with the latest version of html, html-5.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <i class="fas fa-bold"></i>
+                <h3>BOOTSTRAP</h3>
+                <p>Build with the latest version of the bootastrap, Bootstrap-4.</p>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <i class="fab fa-css3"></i>
+                <h3>CSS3</h3>
+                <p>Build with the latest version of the css, CSS-3.</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- if you build it -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h4>If you build it...</h4>
+                <p>There is a lot of stress around us whole day which creates lot of hindrance in our mind. The stress
+                    can arise at office, at our home, in some relations or in anything else. People while handling these
+                    kinds of stress doesn’t get the chance to see the beauty of life. We forget that there is something
+                    more in our life which is valuable and beautiful.</p>
+                <p>God has given us plenty of good things like the
+                    beauty of nature in our life. Trees, animals, plants, sunlight etc give us the positivity and
+                    happiness in life. Nature teaches us that we should be happy and positive in spite of all odds.
+                    Challenges are part of life, without it our life will become boring and uneasy.</p>
+                <p> We must keep
+                    ourselves calm and then dealing of the issues will become easy. Whatever the situation may be, we
+                    must not deviate from the target and goals of our life.
+
+                </p>
+                <button type="button" class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/desk.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+<!-- fixed image -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="parallax">
+
+            </div>
+        </div>
+    </figure>
+    <!-- emojee -->
+    <button class="fun" type="button" data-bs-toggle="collapse" data-bs-target="#emoji">
+        click for fun
+    </button>
+    <div id="emoji" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6">
+                    <img class="gif" src="img/gif/chicken.gif">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="gif" src="img/gif/panda.gif">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="gif" src="img/gif/poo.gif">
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="gif" src="img/gif/unicorn.gif">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- meet the team -->
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1 class="display-4"> Meet The Team</h1>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+    <!-- empolly cards -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team1.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">John is an enterprenure with almost 20 year of expirence.</p>
+                        <a href="vishal" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team2.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mary joe</h5>
+                        <p class="card-text">Mary is a designer with almost 10 year of degital design expirence</p>
+                        <a href="" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/team3.png" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Phil Ho</h5>
+                        <p class="card-text">Phil is developerwith over 5 year web development</p>
+                        <a href="" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our philosophy -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <h4>Our Philosophy...</h4>
+                <p>Mahatma Gandhi attained his early education from Ahmedabad. He was a dedicated student.
+                    He went to South Africa to pursue law from University College London’s Faculty of Law and realized
+                    the importance of education in life.
+                    He believed that education is the basic necessity of everybody.
+                    He felt that education is the only medium that could build a strong nation.
+                </p>
+                <p>He suggested that education should be available to children in their mother tongue.
+                    He wanted a system where everyone gets free and compulsory education.
+                    According to Mahatma Gandhi, education is essential to build a strong character.
+                    He encouraged children to attend school to form a respectable personality.
+                </p>
+                <p> He felt that education could bring about all-round development in children.
+                    According to Gandhiji, education plays a vital role in spreading social awareness..
+
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="img/bootstrap2.png" class="img-fluid">
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- social-media icon -->
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Content</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-google-plus"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/w3newbie.png" alt="">
+                    <hr class="light">
+                    <p>555-555-555</p>
+                    <p>email@gmail.com</p>
+                    <p>10 street, new market</p>
+                    <p>Delhi, India</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday: 9am - 5pm</p>
+                    <p>Saturday: 10am - 4pm</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>10 street, new market</p>
+                    <p>10 street, new market</p>
+                    <p>10 street, new market</p>
+                    <p>10 street, new market</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; vishalsingh.com</h5>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
